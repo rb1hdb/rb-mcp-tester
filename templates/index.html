@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RB MCP Tester</title>
+    <link rel="icon" type="image/png" href="/static/favicon-pandora-48x48.png">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-link">
+            <span class="header-brand"><span class="brand-rb">RB</span> MCP Tester</span>
+            <span class="version">Generic MCP Security Testing Tool · v1.0</span>
+        </div>
+    </header>
+    <main>
+        <!-- Panel 1: Config selector -->
+        <aside id="selector">
+            <section class="selector-group">
+                <h3>Config</h3>
+                <select id="config-select">
+                    <option value="">— selecione —</option>
+                </select>
+                <p id="config-description" class="config-desc"></p>
+            </section>
+
+            <section class="selector-group status-section">
+                <h3>Status</h3>
+                <div class="status-row">
+                    <span>LLM:</span>
+                    <span id="status-ollama" class="status-indicator off">?</span>
+                </div>
+                <div class="status-row">
+                    <span>MCP:</span>
+                    <span id="status-mcp" class="status-indicator off">○ Desconectado</span>
+                </div>
+            </section>
+
+            <section class="selector-group">
+                <button id="btn-connect" disabled>▶ Conectar</button>
+                <button id="btn-disconnect" disabled>■ Desconectar</button>
+            </section>
+        </aside>
+
+        <!-- Panel 2: Chat -->
+        <section id="chat-panel">
+            <div id="chat-toolbar">
+                <label id="think-toggle" title="Liga o raciocínio (&lt;think&gt;) do modelo: mais lento">
+                    <input type="checkbox" id="chk-think"> Raciocínio
+                </label>
+                <button id="btn-log-toggle" title="Mostrar/ocultar log">LOG</button>
+            </div>
+            <div id="chat-messages"></div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Digite seu prompt..." disabled autocomplete="off">
+                <button type="submit" id="chat-send" disabled>⏎</button>
+            </form>
+        </section>
+
+        <!-- Panel 3: Inspector + Log -->
+        <section id="right-panel">
+            <div id="inspector">
+                <div class="panel-title">MCP Inspector</div>
+                <div id="inspector-body">
+                    <div class="inspector-section">
+                        <div class="inspector-label">Tools <span id="inspector-tools-count" class="inspector-count"></span></div>
+                        <div id="inspector-tools" class="inspector-items"></div>
+                    </div>
+                    <div class="inspector-section">
+                        <div class="inspector-label">Resources <span id="inspector-resources-count" class="inspector-count"></span></div>
+                        <div id="inspector-resources" class="inspector-items"></div>
+                    </div>
+                    <div class="inspector-section">
+                        <div class="inspector-label">Templates <span id="inspector-templates-count" class="inspector-count"></span></div>
+                        <div id="inspector-templates" class="inspector-items"></div>
+                    </div>
+                    <div class="inspector-section">
+                        <div class="inspector-label">Prompts <span id="inspector-prompts-count" class="inspector-count"></span></div>
+                        <div id="inspector-prompts" class="inspector-items"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="log-section">
+                <div class="panel-title">Log</div>
+                <div id="log-messages"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>RB MCP Tester | by Renato Braga</span>
+    </footer>
+
+    <script src="/static/app.js?v=13"></script>
+</body>
+</html>

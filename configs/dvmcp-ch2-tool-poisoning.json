@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch2 — Tool Poisoning",
+  "description": "Instrução oculta na descrição da ferramenta exfiltra dados confidenciais. (MCP03)",
+  "transport": "sse",
+  "url": "http://localhost:9002/sse"
+}

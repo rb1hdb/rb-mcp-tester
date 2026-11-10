@@ -1,0 +1,10 @@
+{
+  "name": "Appsecco — Act2 — Path Traversal + Code Exec",
+  "description": "Escapa do workspace via path traversal e executa código Python arbitrário. (MCP02)",
+  "transport": "stdio",
+  "command": "~/venvs/appsecco-mcp-py/bin/python",
+  "args": [
+    "~/LLMAS-P/vulnerable-mcp-servers-lab/vulnerable-mcp-server-filesystem-workspace-actions/vulnerable-mcp-server-filesystem-workspace-actions-mcp.py",
+    "~/LLMAS-P/vulnerable-mcp-servers-lab/vulnerable-mcp-server-filesystem-workspace-actions/sandbox-workspace"
+  ]
+}

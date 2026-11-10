@@ -1,0 +1,7 @@
+{
+  "name": "Appsecco — Act1 — eval() RCE",
+  "description": "RCE via eval() no parâmetro format da ferramenta get_qotd. (MCP05)",
+  "transport": "stdio",
+  "command": "node",
+  "args": ["~/LLMAS-P/vulnerable-mcp-servers-lab/vulnerable-mcp-server-malicious-code-exec/index.js"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch4 — Rug Pull Attack",
+  "description": "Ferramenta muda de comportamento após ganhar confiança do usuário. (MCP03)",
+  "transport": "sse",
+  "url": "http://localhost:9004/sse"
+}

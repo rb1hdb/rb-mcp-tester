@@ -1,0 +1,7 @@
+{
+  "name": "Appsecco — Act5 — Malicious Tool Output",
+  "description": "Retorno de ferramenta injeta instruções e fabrica dados de status. (MCP03)",
+  "transport": "stdio",
+  "command": "node",
+  "args": ["~/LLMAS-P/vulnerable-mcp-servers-lab/vulnerable-mcp-server-malicious-tools/index.js"]
+}

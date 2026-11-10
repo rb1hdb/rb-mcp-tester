@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch8 — Malicious Code Execution",
+  "description": "Execução de comandos arbitrários no servidor via ferramentas sem sandbox. (MCP05)",
+  "transport": "sse",
+  "url": "http://localhost:9008/sse"
+}

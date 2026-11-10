@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch3 — Excessive Permission Scope",
+  "description": "Lê arquivos fora do escopo autorizado; falta de princípio do menor privilégio. (MCP02)",
+  "transport": "sse",
+  "url": "http://localhost:9003/sse"
+}

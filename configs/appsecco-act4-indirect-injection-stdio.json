@@ -1,0 +1,7 @@
+{
+  "name": "Appsecco — Act4 — Indirect Prompt Injection (stdio)",
+  "description": "Instruções ocultas em documentos em três formatos: pseudo-SYSTEM, HTML, bloco. (MCP06)",
+  "transport": "stdio",
+  "command": "node",
+  "args": ["~/LLMAS-P/vulnerable-mcp-servers-lab/vulnerable-mcp-server-indirect-prompt-injection/index.js"]
+}

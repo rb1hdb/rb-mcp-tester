@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch5 — Tool Shadowing",
+  "description": "Ferramenta sombra se sobrepõe à legítima e exfiltra dados via descrição oculta. (MCP03)",
+  "transport": "sse",
+  "url": "http://localhost:9005/sse"
+}

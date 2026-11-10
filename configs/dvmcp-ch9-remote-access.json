@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch9 — Remote Access Control",
+  "description": "Injeção de comando em ferramentas de rede que concatenam input sem sanitização. (MCP07)",
+  "transport": "sse",
+  "url": "http://localhost:9009/sse"
+}

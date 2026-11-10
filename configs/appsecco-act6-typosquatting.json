@@ -1,0 +1,7 @@
+{
+  "name": "Appsecco — Act6 — Namespace Typosquatting (twittter-mcp)",
+  "description": "Servidor MCP com nome enganoso (3 t's); demonstra risco de supply chain. (MCP09)",
+  "transport": "stdio",
+  "command": "node",
+  "args": ["~/LLMAS-P/vulnerable-mcp-servers-lab/vulnerable-mcp-server-namespace-typosquatting/index.js"]
+}

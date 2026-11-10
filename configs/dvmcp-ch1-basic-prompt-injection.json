@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch1 — Basic Prompt Injection",
+  "description": "Extrai credenciais via recurso interno exposto sem controle de acesso. (MCP06)",
+  "transport": "sse",
+  "url": "http://localhost:9001/sse"
+}

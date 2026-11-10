@@ -1,0 +1,6 @@
+{
+  "name": "Appsecco — Act9 — Wikipedia (Streamable HTTP)",
+  "description": "Conteúdo público não sanitizado como vetor de injeção indireta. (MCP06) — inicie o servidor antes: $APPSECCO_VENV/bin/python wikipedia-mcp.py",
+  "transport": "streamable_http",
+  "url": "http://localhost:8000/mcp"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch7 — Token Theft",
+  "description": "Tokens de autenticação vazam em mensagens de erro e respostas de status. (MCP01)",
+  "transport": "sse",
+  "url": "http://localhost:9007/sse"
+}

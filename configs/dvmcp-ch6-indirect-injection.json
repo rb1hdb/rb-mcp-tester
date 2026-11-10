@@ -1,0 +1,6 @@
+{
+  "name": "DVMCP — Ch6 — Indirect Prompt Injection",
+  "description": "Instrução maliciosa embutida no conteúdo de documento processado pelo LLM. (MCP06)",
+  "transport": "sse",
+  "url": "http://localhost:9006/sse"
+}

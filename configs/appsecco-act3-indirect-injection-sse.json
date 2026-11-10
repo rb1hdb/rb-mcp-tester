@@ -1,0 +1,6 @@
+{
+  "name": "Appsecco — Act3 — Indirect Prompt Injection (SSE remoto)",
+  "description": "Documento envenenado servido por servidor SSE remoto manipula o LLM. (MCP06) — inicie o servidor antes: cd $APPSECCO_DIR/vulnerable-mcp-server-indirect-prompt-injection-remote-mcp && node index.js",
+  "transport": "sse",
+  "url": "http://localhost:3000/mcp"
+}
