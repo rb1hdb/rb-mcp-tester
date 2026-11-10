@@ -71,7 +71,7 @@ flowchart LR
 - Log panel showing tool calls, tool descriptions, thinking traces, and results
 - 16 pre-configured configs (9 DVMCP + 7 Appsecco)
 - MCP resources exposed as a synthetic `read_resource` tool for the LLM
-- **Raciocínio (think mode):** checkbox in the UI toggles extended reasoning per turn; also controllable via `OLLAMA_THINK` env var and the `think` query parameter in `/api/chat`
+- **Think mode:** checkbox in the UI toggles extended reasoning per turn; also controllable via `OLLAMA_THINK` env var and the `think` query parameter in `/api/chat`
 - Dark theme with monospace font, responsive layout
 
 ## Installation
