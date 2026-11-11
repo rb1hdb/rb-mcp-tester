@@ -244,6 +244,7 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
     line-height: 1.5;
     word-wrap: break-word;
     white-space: pre-wrap;
+    flex-shrink: 0;
 }
 
 .msg-user {
@@ -262,13 +263,21 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
     align-self: flex-start;
     background: var(--bg-tool);
     border-left: 3px solid var(--neon-yellow);
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     color: var(--text-dim);
     max-width: 90%;
 }
 
 .msg-tool .tool-label { color: var(--neon-yellow); font-weight: 600; }
-.msg-tool { max-height: 22rem; overflow-y: auto; }
+
+.msg-tool .tool-body {
+    display: block;
+    max-height: 22rem;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-top: 0.25rem;
+}
 
 .msg-status {
     align-self: flex-start;

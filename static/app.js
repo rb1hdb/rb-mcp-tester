@@ -272,7 +272,7 @@ function addChatTool(kind, name, data) {
     div.className = "msg msg-tool";
     const label = kind === "call" ? "🔧 Tool call" : "📥 Result";
     const content = typeof data === "string" ? data : JSON.stringify(data, null, 2);
-    div.innerHTML = `<span class="tool-label">${label}: ${escHtml(name)}</span>\n${escHtml(content)}`;
+    div.innerHTML = `<span class="tool-label">${label}: ${escHtml(name)}</span><div class="tool-body">${escHtml(content)}</div>`;
     container.appendChild(div);
     container.scrollTop = container.scrollHeight;
 }
